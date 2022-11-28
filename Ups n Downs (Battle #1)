@@ -1,0 +1,39 @@
+<div class="first"></div>
+<div class="second"></div>
+<div class="third"></div>
+<style>
+  body {
+    background-color: #62306D;
+    margin:0;
+  }
+  .first {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 50px 0 0;
+    background: #F7EC7D;
+    position: absolute;
+    top: 33.3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .second {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 50px 0 0;
+    background: #F7EC7D;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+  }
+.third {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 50px 0 0;
+    background: #F7EC7D;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+  }
+</style>
