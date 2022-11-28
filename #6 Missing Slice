@@ -1,0 +1,47 @@
+<div class="first"></div>
+<div class="second"></div>
+<div class="third"></div>
+<div class="fourth"></div>
+<style>
+  body {
+    background: #E3516E;
+    margin:0;
+  }
+  .first {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #51B5A9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .second {
+    width: 200px;
+    height: 100px;
+    border-radius: 0 0 200px 200px;
+    background: #F7F3D7;
+    position: relative;
+    top: 66.6%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .third {
+    width: 100px;
+    height: 200px;
+    border-radius: 0px 200px 200px 0;
+    background: #FADE8B;
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+  }
+.fourth {
+  width: 100px;
+  height: 100px;
+  background: #E3516E;
+  position: absolute;
+  bottom: 50px;
+  left: 200px;
+}
+</style>
