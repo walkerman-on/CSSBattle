@@ -1,0 +1,62 @@
+ <div class="first">
+    <div class="triangle-1"></div>
+ </div>
+ <div class="second">
+    <div class="triangle-2"></div>
+ </div>
+<div class="third">
+ </div>
+<style>
+  body {
+    background-color: #0B2429;
+    margin:0;
+  }
+  .first {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #F3AC3C;
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    z-index: 5;
+  }
+  .second {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #998235;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index:4
+  }
+  .third {
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    background-color:#F3AC3C;
+    position:absolute;
+    top:30px;
+    right:80px;
+  }
+  .triangle-1 {
+    width: 0;
+	height: 0;
+    border-top: 60px solid #F3AC3C; 
+	border-left: 60px solid transparent;
+    position: relative;
+    top: 0;
+    left: 60px;
+  }
+  .triangle-2 {
+    width: 0;
+	height: 0;
+    border-top: 60px solid #998235; 
+	border-left: 60px solid transparent;
+    position: relative;
+    top: 0;
+    left: 60px;
+  }
+</style>
